@@ -301,6 +301,10 @@ class BeepDataset(MSONable):
 
         return self.X_train, self.X_test, self.y_train, self.y_test
 
+    def train_test_split_by_seq_num(self):
+        pass
+        
+
     def serialize(self):
         """
         Method to serialize dataset
